@@ -1,0 +1,55 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "crud-operation-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/crudOperation/CrudOperationWebPart.js",
+          "manifest": "./src/webparts/crudOperation/CrudOperationWebPart.manifest.json"
+        }
+      ]
+    },
+    "tabbed-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/tabbedForm/TabbedFormWebPart.js",
+          "manifest": "./src/webparts/tabbedForm/TabbedFormWebPart.manifest.json"
+        }
+      ]
+    },
+    "detail-list-table-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/detailListTable/DetailListTableWebPart.js",
+          "manifest": "./src/webparts/detailListTable/DetailListTableWebPart.manifest.json"
+        }
+      ]
+    },
+    "antd-table-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/antdTable/AntdTableWebPart.js",
+          "manifest": "./src/webparts/antdTable/AntdTableWebPart.manifest.json"
+        }
+      ]
+    },
+    "share-poin-a-pi-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sharePoinAPi/SharePoinAPiWebPart.js",
+          "manifest": "./src/webparts/sharePoinAPi/SharePoinAPiWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CrudOperationWebPartStrings": "lib/webparts/crudOperation/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "TabbedFormWebPartStrings": "lib/webparts/tabbedForm/loc/{locale}.js",
+    "DetailListTableWebPartStrings": "lib/webparts/detailListTable/loc/{locale}.js",
+    "AntdTableWebPartStrings": "lib/webparts/antdTable/loc/{locale}.js",
+    "SharePoinAPiWebPartStrings": "lib/webparts/sharePoinAPi/loc/{locale}.js"
+  }
+}
