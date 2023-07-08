@@ -41,6 +41,14 @@
           "manifest": "./src/webparts/sharePoinAPi/SharePoinAPiWebPart.manifest.json"
         }
       ]
+    },
+    "share-poin-api-crud-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sharePoinApiCrud/SharePoinApiCrudWebPart.js",
+          "manifest": "./src/webparts/sharePoinApiCrud/SharePoinApiCrudWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -50,6 +58,7 @@
     "TabbedFormWebPartStrings": "lib/webparts/tabbedForm/loc/{locale}.js",
     "DetailListTableWebPartStrings": "lib/webparts/detailListTable/loc/{locale}.js",
     "AntdTableWebPartStrings": "lib/webparts/antdTable/loc/{locale}.js",
-    "SharePoinAPiWebPartStrings": "lib/webparts/sharePoinAPi/loc/{locale}.js"
+    "SharePoinAPiWebPartStrings": "lib/webparts/sharePoinAPi/loc/{locale}.js",
+    "SharePoinApiCrudWebPartStrings": "lib/webparts/sharePoinApiCrud/loc/{locale}.js"
   }
 }
